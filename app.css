@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.container {
+  background: #2c2b2a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.file-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.btn-upload,
+.btn-clear {
+  background-color: rgb(53, 53, 53);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+.btn-clear {
+  background-color: #6c757d;
+}
+
+.btn-upload:hover {
+  background-color: #0056b3;
+}
+
+.btn-clear:hover {
+  background-color: #495057;
+}
+.prg-Bar {
+  width: 100%;
+  margin: 15px 0;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+progress::-webkit-progress-bar {
+  background-color: #f4f4f9;
+}
+
+progress::-webkit-progress-value {
+  background-color: #007bff;
+}
+
+progress::-moz-progress-bar {
+  background-color: #007bff;
+}
+label {
+  display: block;
+  font-size: 20px;
+
+  margin-top: 5px;
+}

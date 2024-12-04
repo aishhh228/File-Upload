@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="app.css">
+        <title>File Upload</title>
+    </head>
+    <body>
+        <div class="container">
+            <!--Upload File-->
+            <h2>File Upload with Progress Bar</h2>
+            <input type="file" id="fileInput" class="file-input" name="file">
+            <button class="btn-upload" id="uploadBtn">Upload</button> 
+             <button class="btn-clear" id="clearBtn">Clear</button>  
+          <div>
+             <!--Progress Bar -->
+            <progress id="prgBar" value="0" max="100" class="prg-Bar">Progress Bar</progress>
+            <label for="prgBar">0%</label>
+           </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
